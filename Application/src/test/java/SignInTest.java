@@ -14,4 +14,11 @@ public class SignInTest extends FSBase{
     public void testSignInAfterProductSearch() throws InterruptedException, IOException {
         fsSearch();
     }
+
+    // Automated one more test case
+    @Test
+    public void testSignInAfterProductSearch2() throws InterruptedException, IOException {
+        fsSearch();
+    }
+
 }
